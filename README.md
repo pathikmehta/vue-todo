@@ -1,4 +1,4 @@
-# test-app-with-vue-ui-todolist
+# Todo List Application
 
 ## Project setup
 ```
