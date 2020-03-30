@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 
 export default {
   name: "AddTodo",
@@ -19,10 +19,8 @@ export default {
   },
   methods: {
     addTodo(e) {
-      console.log('Inside add todo method');
       e.preventDefault();
       const newTodo = {
-        id: uuidv4(),
         title: this.title,
         completed: false
       }
